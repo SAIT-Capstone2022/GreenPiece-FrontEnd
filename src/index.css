@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 12.5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: #a3bda1;
+  align-items: stretch;
+  
+}
+
+nav li {
+  padding: 0.10rem;
+}
+
+nav li.active {
+  background-color:rgb(48, 66, 47);
+}
+
+#root {
+  /* height: 100vh; */
+  background-image: url("./images/leave_bg.png"), linear-gradient(white, #dcfbca);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div #login-container, #signup-component {
+  max-width: 600px;
+}
+
+#subText {
+  font-size: 12px;
+  color: rgb(104, 104, 104);
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background: linear-gradient(rgb(235, 253, 234), white);
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+
+.input {
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid lightgray; 
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.weather-data {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city {
+  font-size: 20px;
+}
+
+.temp {
+font-size: 30px;
+}
+
+.weather {
+font-size: 20px;
+}
